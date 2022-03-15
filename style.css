@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');    
+*{
+    font-family: 'Lora', serif;
+}
+body{
+    background-color: rgb(255, 4, 255);
+    color:white;
+}
+.heading{
+    font-size:32px;
+    position:absolute;
+    left:500px;
+}
+#learn{
+    position:absolute;
+    background-color:red;
+    left:500px;
+    top:100px;
+}
+a{
+    border:none;
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+iframe{
+    box-shadow:9px 10px 3px 1px purple;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 12px;
+    border-start-start-radius: 2em;
+    border-start-end-radius: 4em;
+    background-color:#edc7b7;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+iframe:hover{
+    background-color:#edc7b7;
+}
+#science,.text,#text,#about{
+    position: absolute;
+    left: 350px;
+    top:200px;
+}
+#science{
+    box-shadow:9px 10px 3px 1px purple;
+}
+#computers{
+    box-shadow:9px 10px 3px 1px purple;
+}
+.text{
+    top:180px;
+}
+#text2,#computers{
+    top:200px;
+}
+#about{
+    border:2px solid rgb(167, 34, 167);
+    border-radius:23px;
+    left:900px;
+}
+img{
+    position:relative;
+    width:100%;
+    border:1px dotted grey;
+    border-radius: 23px;
+    transition-property: border-radius;
+    transition-duration: 2s;
+}
+img:hover{
+    border-radius:40%;
+}
+#text{
+    position:absolute;
+    bottom:10px;
+    left:30px;
+}
+::selection{
+    color:white;
+    background-color:aqua;
+}
